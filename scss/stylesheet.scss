@@ -1,0 +1,99 @@
+@import "normalise";
+
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+
+#navToggle {display: none}
+
+header {
+  background: #fcdfcc;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#logo h1 {
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 0;
+  padding: 25px 15px;
+}
+
+nav {
+  text-align: right;
+  transform: 300ms all ease;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  border-bottom: none;
+  display: inline-block;
+}
+
+li a {
+  padding: 0 1.25rem;
+  text-decoration: none;
+  transition: 250ms all ease;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+li:hover a {color: rgb(140, 193, 193)}
+
+
+/* Mobile Toggle */
+
+#navToggle {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: 300ms all ease;
+}
+
+#navToggle a {
+  color: black;
+  display: block;
+  font-size: 2em;
+  font-weight: 200;
+  padding: 8px 12px;
+  line-height: 1em;
+  text-decoration: none;
+  transition: 300ms all ease;
+}
+
+#navToggle:hover a {color: red}
+
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+}
+
+@import "media-queries";

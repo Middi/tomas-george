@@ -1,0 +1,28 @@
+
+/* Mobile */
+@media all and (max-width: 720px) {
+    
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  nav {
+    display: none;
+    width: 100%;
+  }
+  
+  li {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 1.5rem 0;
+  }
+  
+  li a {font-size: 1.4rem}
+    
+  #navToggle {display: block}
+    
+  }
+  
+  

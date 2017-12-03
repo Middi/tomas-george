@@ -19,12 +19,74 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/img\/card-image.jpg": {
+		"ft": 16384,
+		"iS": 6764,
+		"oA": 0,
+		"oAP": "\/img\/card-image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/hero.jpg": {
+		"ft": 16384,
+		"iS": 4805009,
+		"oA": 0,
+		"oAP": "\/img\/hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/logo.png": {
+		"ft": 32768,
+		"iS": 725,
+		"oA": 0,
+		"oAP": "\/img\/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/stats-img.png": {
+		"ft": 32768,
+		"iS": 6142282,
+		"oA": 0,
+		"oAP": "\/img\/stats-img.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/tomas.jpg": {
+		"ft": 16384,
+		"iS": 4843707,
+		"oA": 0,
+		"oAP": "\/img\/tomas.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/index.html",
 		"oF": 0
+		},
+	"\/js\/main-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/main-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"\/js\/main.js": {
 		"ft": 64,
@@ -35,6 +97,19 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"\/scss\/_colors.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/scss\/_colors.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/scss\/_media-queries.scss": {
 		"aP": 0,

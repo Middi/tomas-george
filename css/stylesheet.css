@@ -251,7 +251,7 @@ li:hover a {
   background-position: top left;
   background-repeat: no-repeat; }
   .about-text {
-    padding: 0 150px 25px 25px;
+    padding: 0 25px 25px;
     background: #f0f0f0;
     max-width: 50%; }
 
@@ -259,6 +259,8 @@ li:hover a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -271,17 +273,25 @@ li:hover a {
   height: 347px;
   width: 270px;
   border: 1px solid #e5e5e5;
-  margin: 0 15px;
-  text-align: center; }
+  margin: 0 15px 40px;
+  text-align: center;
+  position: relative; }
   .card-image {
     background: url("../img/card-image.jpg");
     background-size: contain;
     background-position: top center;
     background-repeat: no-repeat;
     height: 152px;
-    width: 100%; }
+    width: 270px; }
   .card-content {
-    padding: 0 12px; }
+    padding: 0 20px; }
+  .card-footer {
+    position: absolute;
+    bottom: 0;
+    left: 25px;
+    width: 220px;
+    padding: 12px;
+    border-top: 1px solid #e5e5e5; }
 
 footer {
   position: absolute;

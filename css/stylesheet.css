@@ -82,7 +82,7 @@ h2 {
   border-bottom: 6px solid #ed3840; }
 
 h4 {
-  font-size: 1.5em;
+  font-size: 1.4em;
   margin: 0;
   font-weight: 500;
   color: #337ab7; }
@@ -131,6 +131,7 @@ p {
 
 .fa-lg {
   font-size: 1.5em;
+  padding-top: 4px;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
@@ -299,7 +300,8 @@ li:hover a {
         -ms-flex-align: center;
             align-items: center; }
   .stats-data {
-    width: 80px; }
+    margin: 0;
+    padding: 8px; }
 
 .about {
   height: auto;

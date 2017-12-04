@@ -89,7 +89,7 @@ li:hover a {color: rgba(0, 0, 0, 1)}
     height: 600px;
     background: url('../img/hero.jpg');
     background-size: cover;
-    background-position: bottom center;
+    background-position: top center;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
@@ -122,24 +122,25 @@ li:hover a {color: rgba(0, 0, 0, 1)}
     url('../img/stats-img.png');
     background-position: top right;
     background-repeat: no-repeat;
-    height: 150px;
-    &::before{
-        content: " ";
-        width: 100%;
-        height: 150px;
-        background: $gradback; 
-        z-index: -1;
-        display: block;
-        position: relative;
-    }
+    height: 80px;
     &-container {
-        height: 150px;
+        height: 80px;
+        max-width: 1000px;
         display: flex;
         justify-content: space-around;
         align-items: center;
         text-align: center;
-        top: -150px;
+        // top: -80px;
         position: relative;
+    }
+
+    &-flex {
+        display: flex;
+        align-items: center;
+    }
+
+    &-data {
+        width: 80px;
     }
 }
 
@@ -147,8 +148,9 @@ li:hover a {color: rgba(0, 0, 0, 1)}
     height: auto;
     width: 100%;
     display: flex;
-    justify-content: flex-end;    
-    background: url('../img/tomas.jpg');
+    justify-content: flex-end;
+    background-color: $aboutbg;
+    background-image: url('../img/tomas.jpg');
     background-size: 50%;
     background-position: top left;
     background-repeat: no-repeat;
@@ -157,8 +159,20 @@ li:hover a {color: rgba(0, 0, 0, 1)}
         padding: 0 25px 25px;
         background: $aboutbg;
         max-width: 50%;
-
     }
+}
+
+
+.container-about {
+    margin: 0 auto;
+    max-width: 1200px; 
+    display: flex;
+    justify-content: flex-end;
+}
+
+.courses {
+    padding-top: 40px;
+    text-align: center;
 }
 
 .card-container {
@@ -167,6 +181,7 @@ li:hover a {color: rgba(0, 0, 0, 1)}
     justify-content: center;
     align-items: center;
     margin: 100px auto;
+    max-width: 1200px;
 }
 
 .card {
@@ -193,8 +208,11 @@ li:hover a {color: rgba(0, 0, 0, 1)}
         bottom: 0;
         left: 25px;
         width: 220px;
-        padding: 12px;
+        padding: 12px 0 16px;
         border-top: 1px solid #e5e5e5;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 }
 

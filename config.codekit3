@@ -26,12 +26,12 @@
 		"oAP": "\/img\/card-image.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/hero.jpg": {
 		"ft": 16384,
-		"iS": 4805009,
+		"iS": 10265354,
 		"oA": 0,
 		"oAP": "\/img\/hero.jpg",
 		"oF": 0,
@@ -59,6 +59,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/img\/tomas-mob.jpg": {
+		"ft": 16384,
+		"iS": 82356,
+		"oA": 0,
+		"oAP": "\/img\/tomas-mob.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/img\/tomas.jpg": {

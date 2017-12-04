@@ -274,8 +274,8 @@ li:hover a {
       cursor: pointer; }
 
 .stats {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(234, 234, 234, 0.9)), to(rgba(255, 255, 255, 0.6))), url("../img/stats-img.png");
-  background: linear-gradient(rgba(234, 234, 234, 0.9), rgba(255, 255, 255, 0.6)), url("../img/stats-img.png");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(234, 234, 234, 0.2)), to(rgba(255, 255, 255, 0.6))), url("../img/stats-img.png");
+  background: linear-gradient(rgba(234, 234, 234, 0.2), rgba(255, 255, 255, 0.6)), url("../img/stats-img.png");
   background-position: top right;
   background-repeat: no-repeat;
   height: 80px; }
@@ -312,14 +312,14 @@ li:hover a {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  background-color: #f0f0f0;
+  background-color: #fafafa;
   background-image: url("../img/tomas.jpg");
   background-size: 50%;
   background-position: top left;
   background-repeat: no-repeat; }
   .about-text {
     padding: 0 25px 25px;
-    background: #f0f0f0;
+    background: #fafafa;
     max-width: 50%; }
 
 .container-about {
@@ -388,7 +388,7 @@ li:hover a {
             align-items: center; }
 
 .social {
-  background: rgba(234, 234, 234, 0.9);
+  background: #fafafa;
   padding-top: 40px; }
   .social-card {
     height: 440px;

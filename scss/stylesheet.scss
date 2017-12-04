@@ -172,7 +172,6 @@ li:hover a {color: rgba(0, 0, 0, 1)}
 
 .courses {
     padding-top: 40px;
-    text-align: center;
 }
 
 .card-container {
@@ -191,14 +190,16 @@ li:hover a {color: rgba(0, 0, 0, 1)}
     margin: 0 15px 40px;
     text-align: center;
     position: relative;
+    overflow: hidden;
     &-image {
-        background: url('../img/card-image.jpg');
+        background-image: url('../img/card-image.jpg');
         background-size: contain;
-        background-position: top center;
+        background-position: center center;
         background-repeat: no-repeat;
         height: 152px;
         width: 270px;
-
+        overflow: hidden;
+        transition: all ease-in-out 0.4s;
     }
     &-content {
         padding: 0 20px;
@@ -216,6 +217,20 @@ li:hover a {color: rgba(0, 0, 0, 1)}
     }
 }
 
+.social {
+    background: $grad1;
+    padding-top: 40px;
+    &-card{
+        height: 440px;
+        width: 360px;
+        background: white;
+        border: 1px solid #e5e5e5;
+        margin: 0 15px 40px;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+    }
+}
 
 footer {
     position: absolute;

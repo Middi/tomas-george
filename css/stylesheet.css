@@ -69,6 +69,9 @@ h2 {
   font-weight: 500;
   position: relative; }
 
+.section-title {
+  text-align: center; }
+
 .section-title:after {
   content: "";
   width: 40px;
@@ -328,8 +331,7 @@ li:hover a {
           justify-content: flex-end; }
 
 .courses {
-  padding-top: 40px;
-  text-align: center; }
+  padding-top: 40px; }
 
 .card-container {
   display: -webkit-box;
@@ -352,14 +354,18 @@ li:hover a {
   border: 1px solid #e5e5e5;
   margin: 0 15px 40px;
   text-align: center;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
   .card-image {
-    background: url("../img/card-image.jpg");
+    background-image: url("../img/card-image.jpg");
     background-size: contain;
-    background-position: top center;
+    background-position: center center;
     background-repeat: no-repeat;
     height: 152px;
-    width: 270px; }
+    width: 270px;
+    overflow: hidden;
+    -webkit-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s; }
   .card-content {
     padding: 0 20px; }
   .card-footer {
@@ -378,6 +384,19 @@ li:hover a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
+
+.social {
+  background: rgba(234, 234, 234, 0.9);
+  padding-top: 40px; }
+  .social-card {
+    height: 440px;
+    width: 360px;
+    background: white;
+    border: 1px solid #e5e5e5;
+    margin: 0 15px 40px;
+    text-align: center;
+    position: relative;
+    overflow: hidden; }
 
 footer {
   position: absolute;

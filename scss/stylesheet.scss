@@ -258,7 +258,10 @@ li:hover a {color: rgba(0, 0, 0, 1)}
         margin: 0;
         width: 310px;
         border: 1px solid #e5e5e5;
-       
+        outline: none;
+        &:focus {
+            border-color: $btn;
+        }
     }
     &-button {
         height: 41px;

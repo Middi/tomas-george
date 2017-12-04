@@ -444,7 +444,10 @@ li:hover a {
     padding: 9px;
     margin: 0;
     width: 310px;
-    border: 1px solid #e5e5e5; }
+    border: 1px solid #e5e5e5;
+    outline: none; }
+    .sub-input:focus {
+      border-color: #ed3840; }
   .sub-button {
     height: 41px;
     font-size: 1.1rem;

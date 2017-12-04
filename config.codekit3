@@ -29,6 +29,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/img\/footer-bg.png": {
+		"ft": 32768,
+		"iS": 6012376,
+		"oA": 0,
+		"oAP": "\/img\/footer-bg.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/hero.jpg": {
 		"ft": 16384,
 		"iS": 10265354,

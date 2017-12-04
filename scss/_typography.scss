@@ -102,7 +102,7 @@ p {
     text-decoration: none;
 }
 
-.fa-lg {
+.stats-flex .fa-lg {
     font-size: 1.5em;
     padding-top: 4px;
     text-rendering:  optimizeLegibility;
@@ -129,6 +129,6 @@ p {
     color: $muted;
 }
 
-.card-footer .fa {
-    font-size: .7em;
-}
+.fa-stack .fa {color: $grad2}
+.fa-stack .fa.fa-circle {opacity: .1}
+.fa-stack:hover .fa.fa-circle {opacity: .3}

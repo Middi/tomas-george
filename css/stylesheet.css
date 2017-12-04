@@ -129,7 +129,7 @@ p {
   color: #54b551;
   text-decoration: none; }
 
-.fa-lg {
+.stats-flex .fa-lg {
   font-size: 1.5em;
   padding-top: 4px;
   text-rendering: optimizeLegibility;
@@ -151,8 +151,14 @@ p {
 .fa-muted {
   color: #bebebe; }
 
-.card-footer .fa {
-  font-size: .7em; }
+.fa-stack .fa {
+  color: rgba(255, 255, 255, 0.6); }
+
+.fa-stack .fa.fa-circle {
+  opacity: .1; }
+
+.fa-stack:hover .fa.fa-circle {
+  opacity: .3; }
 
 html {
   height: 100%; }
@@ -406,8 +412,18 @@ footer {
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color: #efefef;
+  background: url("../img/footer-bg.png");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center; }
+  footer p {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: .76em; }
+
+.footer-socials {
+  max-width: 200px;
+  margin: 1.5rem auto; }
 
 @media all and (max-width: 1240px) {
   .about {

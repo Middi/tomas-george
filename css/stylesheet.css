@@ -64,7 +64,14 @@ h1 {
 
 h2 {
   font-size: 2.2em;
-  margin: .87em 0;
+  margin: .87em 0 2em;
+  text-transform: none;
+  font-weight: 500;
+  position: relative; }
+
+h3 {
+  font-size: 1.4em;
+  margin: 0 0 .87em 0;
   text-transform: none;
   font-weight: 500;
   position: relative; }
@@ -355,7 +362,7 @@ li:hover a {
       -ms-flex-align: center;
           align-items: center;
   margin: 0 auto;
-  padding: 60px 0;
+  padding: 20px 0 80px;
   max-width: 1200px; }
 
 .card {
@@ -407,6 +414,46 @@ li:hover a {
     text-align: center;
     position: relative;
     overflow: hidden; }
+
+.mailing {
+  padding: 40px 0 160px; }
+  .mailing-container {
+    background: rgba(247, 247, 247, 0.8);
+    border: 1px solid #e5e5e5;
+    height: 250px;
+    max-width: 600px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+
+.sub {
+  padding: 6px 0; }
+  .sub-input {
+    font-size: 1.1rem;
+    padding: 9px;
+    margin: 0;
+    width: 310px;
+    border: 1px solid #e5e5e5; }
+  .sub-button {
+    height: 41px;
+    font-size: 1.1rem;
+    background-color: #ed3840;
+    color: white;
+    border: none;
+    padding: 10px 20px 11px;
+    margin-left: -4px;
+    vertical-align: top; }
 
 footer {
   position: absolute;

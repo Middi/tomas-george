@@ -283,31 +283,32 @@ li:hover a {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(234, 234, 234, 0.2)), to(rgba(255, 255, 255, 0.6))), url("../img/stats-img.png");
   background: linear-gradient(rgba(234, 234, 234, 0.2), rgba(255, 255, 255, 0.6)), url("../img/stats-img.png");
   background-position: top right;
-  background-repeat: no-repeat;
-  height: 80px; }
+  background-repeat: no-repeat; }
   .stats-container {
-    height: 80px;
-    max-width: 1000px;
+    max-width: 900px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     -ms-flex-pack: distribute;
         justify-content: space-around;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
     text-align: center;
-    position: relative; }
+    margin: 0 auto; }
   .stats-flex {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center; }
+            align-items: center;
+    margin: 10px 20px; }
   .stats-data {
     margin: 0;
-    padding: 8px; }
+    padding: 20px 8px; }
 
 .about {
   height: auto;

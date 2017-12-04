@@ -152,7 +152,7 @@ p {
   color: #bebebe; }
 
 .fa-stack .fa {
-  color: rgba(255, 255, 255, 0.6); }
+  color: rgba(255, 255, 255, 0.8); }
 
 .fa-stack .fa.fa-circle {
   opacity: .1; }
@@ -280,8 +280,8 @@ li:hover a {
       cursor: pointer; }
 
 .stats {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(234, 234, 234, 0.2)), to(rgba(255, 255, 255, 0.6))), url("../img/stats-img.png");
-  background: linear-gradient(rgba(234, 234, 234, 0.2), rgba(255, 255, 255, 0.6)), url("../img/stats-img.png");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(234, 234, 234, 0.8)), to(rgba(255, 255, 255, 0.8))), url("../img/stats-img.png");
+  background: linear-gradient(rgba(234, 234, 234, 0.8), rgba(255, 255, 255, 0.8)), url("../img/stats-img.png");
   background-position: top right;
   background-repeat: no-repeat; }
   .stats-container {
@@ -420,7 +420,7 @@ footer {
   background-size: cover;
   text-align: center; }
   footer p {
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.8);
     font-size: .76em; }
 
 .footer-socials {

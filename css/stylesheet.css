@@ -477,6 +477,38 @@ footer {
   max-width: 200px;
   margin: 1.5rem auto; }
 
+.workshop {
+  background: url("../img/hero-dark.jpg") no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+  .workshop h1, .workshop h2, .workshop h4 {
+    color: white;
+    text-align: center;
+    margin: .17em 0;
+    text-transform: none; }
+  .workshop h2 {
+    margin: 0 0 .4em 0;
+    color: red; }
+  .workshop h4 {
+    margin: 1em;
+    opacity: 0.8; }
+  .workshop h5 {
+    color: white;
+    opacity: 0.8; }
+
+.workshop-container {
+  margin: 60px auto 0;
+  max-width: 850px; }
+
+.workshop-content {
+  text-align: center; }
+
+.no-bg {
+  background: none;
+  border: none; }
+
 @media all and (max-width: 1240px) {
   .about {
     background-size: contain; } }

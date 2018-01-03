@@ -40,6 +40,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/hero-dark.jpg": {
+		"ft": 16384,
+		"iS": 62786,
+		"oA": 0,
+		"oAP": "\/img\/hero-dark.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/img\/hero.jpg": {
 		"ft": 16384,
 		"iS": 10265354,
@@ -59,6 +69,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/img\/musictheory.jpg": {
+		"ft": 16384,
+		"iS": 114454,
+		"oA": 0,
+		"oAP": "\/img\/musictheory.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/img\/stats-img.png": {
@@ -193,6 +213,13 @@
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/workshop.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/workshop.html",
+		"oF": 0
 		}
 	},
 "hooks": [

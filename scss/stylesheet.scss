@@ -252,11 +252,12 @@ li:hover a {color: rgba(0, 0, 0, 1)}
 
 .sub {
     padding: 6px 0;
+    text-align: center;
     &-input {
         font-size: 1.1rem;
         padding: 9px;
         margin: 0;
-        width: 310px;
+        width: 330px;
         border: 1px solid #e5e5e5;
         outline: none;
         &:focus {

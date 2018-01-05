@@ -438,12 +438,13 @@ li:hover a {
             align-items: center; }
 
 .sub {
-  padding: 6px 0; }
+  padding: 6px 0;
+  text-align: center; }
   .sub-input {
     font-size: 1.1rem;
     padding: 9px;
     margin: 0;
-    width: 310px;
+    width: 330px;
     border: 1px solid #e5e5e5;
     outline: none; }
     .sub-input:focus {
@@ -545,3 +546,8 @@ footer {
     font-size: 1.4rem; }
   #navToggle {
     display: block; } }
+
+@media all and (max-width: 520px) {
+  .mailing-container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; } }

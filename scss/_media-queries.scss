@@ -47,3 +47,12 @@
         display: block
     }
 }
+
+
+@media all and (max-width: 520px) {
+
+    .mailing-container {
+        flex-wrap: wrap;
+    }
+
+}

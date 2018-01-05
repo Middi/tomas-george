@@ -183,7 +183,7 @@ body {
 header {
   border-bottom: 1px solid rgba(0, 0, 0, 0.15); }
 
-.container {
+.container-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -199,6 +199,17 @@ header {
           align-items: center;
   max-width: 1200px;
   margin: 0 auto; }
+
+.container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.narrow {
+  max-width: 800px;
+  padding: 0 30px; }
 
 #logo img {
   line-height: 0;
@@ -346,7 +357,7 @@ li:hover a {
       -ms-flex-pack: end;
           justify-content: flex-end; }
 
-.courses {
+.courses, .products {
   padding-top: 40px; }
 
 .card-container {
@@ -516,6 +527,40 @@ footer {
   background: none;
   border: none; }
 
+.secondary-page .hero {
+  height: auto;
+  background: url("../img/hero.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; }
+  .secondary-page .hero-text {
+    margin-bottom: 0;
+    padding: 30px; }
+
+.secondary-page-content {
+  padding-top: 80px; }
+
+.secondary-page .products .card {
+  height: 400px; }
+  .secondary-page .products .card-content {
+    padding-bottom: 15px; }
+  .secondary-page .products .card-footer {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+
+.secondary-page .courses {
+  background: #fafafa; }
+
+.secondary-page .social {
+  background: white; }
+
+.secondary-page .mailing {
+  background: #fafafa; }
+
 @media all and (max-width: 1240px) {
   .about {
     background-size: contain; } }
@@ -532,7 +577,11 @@ footer {
     text-align: center; } }
 
 @media all and (max-width: 720px) {
-  .container {
+  html {
+    font-size: 14px; }
+    html p {
+      font-size: 16px; }
+  .container-header {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -552,6 +601,8 @@ footer {
     font-size: 1.4rem; }
   #navToggle {
     display: block; }
+  .hero {
+    height: 400px; }
   .workshop-content-vid {
     width: 400px;
     height: 225px; } }

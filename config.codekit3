@@ -19,6 +19,17 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/img\/camera.png": {
+		"ft": 32768,
+		"iS": 882618,
+		"oA": 0,
+		"oAP": "\/img\/camera.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/card-image.jpg": {
 		"ft": 16384,
 		"iS": 6764,
@@ -27,6 +38,26 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/img\/dac.jpg": {
+		"ft": 16384,
+		"iS": 58104,
+		"oA": 0,
+		"oAP": "\/img\/dac.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/dbx.jpg": {
+		"ft": 16384,
+		"iS": 38054,
+		"oA": 0,
+		"oAP": "\/img\/dbx.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/img\/footer-bg.png": {
@@ -60,11 +91,33 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/img\/lens.png": {
+		"ft": 32768,
+		"iS": 159436,
+		"oA": 0,
+		"oAP": "\/img\/lens.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/logo.png": {
 		"ft": 32768,
 		"iS": 725,
 		"oA": 0,
 		"oAP": "\/img\/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/mic.png": {
+		"ft": 32768,
+		"iS": 208157,
+		"oA": 0,
+		"oAP": "\/img\/mic.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -138,6 +191,13 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"\/resources.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/resources.html",
+		"oF": 0
 		},
 	"\/scss\/_colors.scss": {
 		"aP": 0,

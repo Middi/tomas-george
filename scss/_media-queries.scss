@@ -1,51 +1,54 @@
-
 @media all and (max-width: 1240px) {
-    .about {
-        background-size: contain;
-        }
+    .about {background-size: contain}
 }
 
 
 @media all and (max-width: 1125px) {
-    .about {
-        background-image: url('../img/tomas-mob.jpg');
-    }
-    
+
+    .about {background-image: url('../img/tomas-mob.jpg')}    
 }
+
 
 @media all and (max-width: 960px) {    
     
-    .about {
-    background-image: none;
-}
+    .about {background-image: none}
+
     .about-text {
             max-width: 600px;
             text-align: center;
-    }
-    
+    }    
 }
 
+
 @media all and (max-width: 720px) {
-    .container {
+
+    html {
+        font-size: 14px;
+        p {font-size: 16px}
+    }
+
+    .container-header {
         flex-direction: column;
         align-items: flex-start;
     }
+
     nav {
         display: none;
         width: 100%;
     }
+
     li {
         display: block;
         width: 100%;
         text-align: center;
         padding: 1.5rem 0;
     }
-    li a {
-        font-size: 1.4rem
-    }
-    #navToggle {
-        display: block
-    }
+
+    li a {font-size: 1.4rem}
+
+    #navToggle {display: block}
+
+    .hero {height: 400px}
 
     .workshop-content-vid {
             width: 400px;

@@ -21,13 +21,24 @@ header {
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
 
-.container {
+.container-header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.container {
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+.narrow {
+    max-width: 800px;
+    padding: 0 30px;
 }
 
 #logo img {
@@ -171,7 +182,7 @@ li:hover a {color: rgba(0, 0, 0, 1)}
     justify-content: flex-end;
 }
 
-.courses {
+.courses, .products {
     padding-top: 40px;
 }
 
@@ -349,5 +360,57 @@ footer {
     background: none;
     border: none;
 }
+
+
+
+// Secondary Page //
+
+.secondary-page {
+    
+    .hero {
+        height: auto;
+        background: url('../img/hero.jpg');
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        &-text {
+            margin-bottom: 0;
+            padding: 30px;
+        }
+    }
+
+    &-content {
+        padding-top: 80px;
+    }
+
+    .products .card {
+        height: 400px;
+
+        &-content {
+            padding-bottom: 15px;
+        }
+
+        &-footer {
+            justify-content: center;
+            align-items: center;
+        }
+    }
+
+    .courses {
+        background: $aboutbg;
+    }
+
+    .social {
+        background: white;
+    }
+
+    .mailing {
+        background: $aboutbg;
+    }
+
+
+
+}
+
 
 @import "media-queries";

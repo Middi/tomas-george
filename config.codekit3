@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "26148",
 "files": {
+	"\/contact.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/contact.html",
+		"oF": 0
+		},
 	"\/css\/stylesheet.css": {
 		"aP": 1,
 		"bl": 0,
@@ -47,7 +54,7 @@
 		"oAP": "\/img\/dac.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/dbx.jpg": {
@@ -57,7 +64,7 @@
 		"oAP": "\/img\/dbx.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/footer-bg.png": {
@@ -121,6 +128,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/mockup.png": {
+		"ft": 32768,
+		"iS": 604467,
+		"oA": 0,
+		"oAP": "\/img\/mockup.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},

@@ -407,10 +407,31 @@ footer {
     .mailing {
         background: $aboutbg;
     }
-
-
-
 }
 
+
+// Contact //
+
+.contact {
+    height: 580px;
+    background-color: white;
+    background-image: url('../img/mockup.png'), linear-gradient(white, darken($aboutbg, 10));
+    background-size: contain;
+    background-position: center right;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+}
+.narrow-contact {
+    max-width: 1000px;
+    padding: 0 30px;
+}
+
+.left-div {
+    margin: 0;
+    max-width: 500px;
+    h3 {
+        padding-bottom: 22px; 
+    }
+}
 
 @import "media-queries";

@@ -238,12 +238,14 @@ li:hover a {color: rgba(0, 0, 0, 1)}
     padding: 40px 0 160px;
 
     &-container {
+        text-align: center;
         background: $mutedsignup;
         border: 1px solid #e5e5e5;
         height: 250px;
         max-width: 600px;
         margin: 0 auto;
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -306,12 +308,11 @@ footer {
     background-size: cover;
     margin: 0;
     padding: 0;
-    overflow: hidden;
 
     h1, h2, h4 {
         color: white;
         text-align: center;
-        margin: .17em 0;
+        margin: 0;
         text-transform: none;
     }
     h2 {
@@ -331,11 +332,17 @@ footer {
 }
 
 .workshop-container {
-    margin: 60px auto 0;
+    margin: 0 auto 0;
     max-width: 850px;
+    padding-top: 50px;
 }
+
 .workshop-content {
     text-align: center;
+    &-vid {
+        width: 640px;
+        height: 360px; 
+    }
 }
 
 .no-bg {

@@ -46,13 +46,18 @@
     #navToggle {
         display: block
     }
+
+    .workshop-content-vid {
+            width: 400px;
+            height: 225px;
+    }
 }
 
 
-@media all and (max-width: 520px) {
+@media all and (max-width: 430px) {
 
-    .mailing-container {
-        flex-wrap: wrap;
+    .workshop-content-vid {
+        width: 320px;
+        height: 180px;
     }
-
 }

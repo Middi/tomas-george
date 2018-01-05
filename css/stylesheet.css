@@ -418,6 +418,7 @@ li:hover a {
 .mailing {
   padding: 40px 0 160px; }
   .mailing-container {
+    text-align: center;
     background: rgba(247, 247, 247, 0.8);
     border: 1px solid #e5e5e5;
     height: 250px;
@@ -426,6 +427,8 @@ li:hover a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -482,12 +485,11 @@ footer {
   background: url("../img/hero-dark.jpg") no-repeat center center fixed;
   background-size: cover;
   margin: 0;
-  padding: 0;
-  overflow: hidden; }
+  padding: 0; }
   .workshop h1, .workshop h2, .workshop h4 {
     color: white;
     text-align: center;
-    margin: .17em 0;
+    margin: 0;
     text-transform: none; }
   .workshop h2 {
     margin: 0 0 .4em 0;
@@ -500,11 +502,15 @@ footer {
     opacity: 0.8; }
 
 .workshop-container {
-  margin: 60px auto 0;
-  max-width: 850px; }
+  margin: 0 auto 0;
+  max-width: 850px;
+  padding-top: 50px; }
 
 .workshop-content {
   text-align: center; }
+  .workshop-content-vid {
+    width: 640px;
+    height: 360px; }
 
 .no-bg {
   background: none;
@@ -545,9 +551,12 @@ footer {
   li a {
     font-size: 1.4rem; }
   #navToggle {
-    display: block; } }
+    display: block; }
+  .workshop-content-vid {
+    width: 400px;
+    height: 225px; } }
 
-@media all and (max-width: 520px) {
-  .mailing-container {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; } }
+@media all and (max-width: 430px) {
+  .workshop-content-vid {
+    width: 320px;
+    height: 180px; } }

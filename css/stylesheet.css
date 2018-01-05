@@ -296,7 +296,6 @@ li:hover a {
   position: absolute;
   right: 0;
   top: 0;
-  bottom: 0;
   -webkit-transition: 300ms all ease;
   transition: 300ms all ease; }
 
@@ -305,14 +304,14 @@ li:hover a {
   display: block;
   font-size: 2em;
   font-weight: 200;
-  padding: 8px 12px;
+  padding: 10px 12px;
   line-height: 1em;
   text-decoration: none;
   -webkit-transition: 300ms all ease;
   transition: 300ms all ease; }
 
 #navToggle:hover a {
-  color: red; }
+  color: #4d4d4d; }
 
 .hero {
   width: 100%;

@@ -246,7 +246,11 @@ body {
   display: none; }
 
 header {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.15); }
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  background-color: white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
 
 .container-header {
   display: -webkit-box;
@@ -287,7 +291,7 @@ nav {
 
 ul {
   list-style-type: none;
-  padding: 0; }
+  padding: 12px 0; }
 
 li {
   border-bottom: none;
@@ -313,18 +317,18 @@ li:hover a {
   transition: 300ms all ease; }
 
 #navToggle a {
-  color: black;
+  color: #4d4d4d;
   display: block;
   font-size: 2em;
   font-weight: 200;
   padding: 10px 12px;
   line-height: 1em;
   text-decoration: none;
-  -webkit-transition: 300ms all ease;
-  transition: 300ms all ease; }
+  -webkit-transition: 100ms all ease;
+  transition: 100ms all ease; }
 
 #navToggle:hover a {
-  color: #4d4d4d; }
+  color: black; }
 
 .hero {
   width: 100%;
@@ -439,6 +443,9 @@ li:hover a {
   margin: 0 auto;
   padding: 20px 0 80px;
   max-width: 1200px; }
+
+main {
+  padding-top: 49px; }
 
 .card {
   height: 347px;
@@ -699,6 +706,8 @@ footer {
   nav {
     display: none;
     width: 100%; }
+  ul {
+    padding: 12px 0 80px; }
   li {
     display: block;
     width: 100%;

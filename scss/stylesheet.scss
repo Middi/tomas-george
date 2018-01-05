@@ -15,7 +15,11 @@ body {
 #navToggle {display: none}
 
 header {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .container-header {
@@ -40,7 +44,7 @@ header {
 
 #logo img {
     line-height: 0;
-  padding: 12px 2px 8px;
+    padding: 12px 2px 8px;
 }
 
 nav {
@@ -50,7 +54,7 @@ nav {
 
 ul {
   list-style-type: none;
-  padding: 0;
+  padding: 12px 0;
 }
 
 li {
@@ -79,17 +83,17 @@ li:hover a {color: rgba(0, 0, 0, 1)}
 }
 
 #navToggle a {
-  color: black;
+  color: lighten($black, 20);
   display: block;
   font-size: 2em;
   font-weight: 200;
   padding: 10px 12px;
   line-height: 1em;
   text-decoration: none;
-  transition: 300ms all ease;
+  transition: 100ms all ease;
 }
 
-#navToggle:hover a {color: lighten($black, 20)}
+#navToggle:hover a {color: black}
 
 .hero {
     width: 100%;
@@ -191,6 +195,8 @@ li:hover a {color: rgba(0, 0, 0, 1)}
     padding: 20px 0 80px;
     max-width: 1200px;
 }
+
+main {padding-top: 49px}
 
 .card {
     height: 347px;

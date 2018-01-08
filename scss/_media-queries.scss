@@ -2,34 +2,35 @@
     .about {
         background-size: contain
     }
-    .contact {
-        height: 480px;
-        padding-top: 50px;
-    }
 }
 
 @media all and (max-width: 1125px) {
     .about {
         background-image: url('../img/tomas-mob.jpg')
     }
-    .contact {
-        height: 480px;
-        padding-top: 40px;
-    }
-    .left-div {
-        max-width: 450px;
-    }
 }
 
 @media all and (max-width: 960px) {
+    
     .contact {
-        background-image: none;
+
+    padding: 30px 0;
     }
-    .left-div {
+    .narrow-contact {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .left-div, .right-div {
         margin: 0 auto;
         text-align: center;
+        width: 100%;
         max-width: 650px;
+        img {
+            width: 90%;
+        }
     }
+
     .about {
         background-image: none
     }

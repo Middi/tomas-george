@@ -642,48 +642,63 @@ footer {
   background: whitesmoke; }
 
 .contact {
-  height: 580px;
   background-color: white;
-  background-image: url("../img/mockup.png"), -webkit-gradient(linear, left top, left bottom, from(white), to(#dcdbdb));
-  background-image: url("../img/mockup.png"), linear-gradient(white, #dcdbdb);
-  background-size: contain;
-  background-position: center right;
-  background-repeat: no-repeat;
-  padding-top: 80px; }
+  padding: 60px 0;
+  height: auto; }
 
 .narrow-contact {
-  max-width: 1000px;
-  padding: 0 30px; }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 20px; }
 
 .left-div {
-  margin: 0;
-  max-width: 500px; }
+  width: 48%; }
+  .left-div h2 {
+    margin-top: 0; }
   .left-div h3 {
     padding-bottom: 22px; }
 
+.right-div {
+  width: 48%;
+  padding-bottom: 40px; }
+  .right-div img {
+    width: 100%; }
+
 @media all and (max-width: 1240px) {
   .about {
-    background-size: contain; }
-  .contact {
-    height: 480px;
-    padding-top: 50px; } }
+    background-size: contain; } }
 
 @media all and (max-width: 1125px) {
   .about {
-    background-image: url("../img/tomas-mob.jpg"); }
-  .contact {
-    height: 480px;
-    padding-top: 40px; }
-  .left-div {
-    max-width: 450px; } }
+    background-image: url("../img/tomas-mob.jpg"); } }
 
 @media all and (max-width: 960px) {
   .contact {
-    background-image: none; }
-  .left-div {
+    padding: 30px 0; }
+  .narrow-contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse; }
+  .left-div, .right-div {
     margin: 0 auto;
     text-align: center;
+    width: 100%;
     max-width: 650px; }
+    .left-div img, .right-div img {
+      width: 90%; }
   .about {
     background-image: none; }
   .about-text {

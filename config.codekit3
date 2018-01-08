@@ -26,6 +26,17 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/img\/album.png": {
+		"ft": 32768,
+		"iS": 768187,
+		"oA": 0,
+		"oAP": "\/img\/album.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/camera.png": {
 		"ft": 32768,
 		"iS": 882618,
@@ -302,6 +313,13 @@
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/work.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/work.html",
+		"oF": 0
 		},
 	"\/workshop.html": {
 		"cB": 0,

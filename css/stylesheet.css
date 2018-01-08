@@ -709,7 +709,7 @@ footer {
     max-width: 600px;
     text-align: center; } }
 
-@media all and (max-width: 720px) {
+@media all and (max-width: 747px) {
   html {
     font-size: 14px; }
     html p {

@@ -7,7 +7,7 @@
 		"uuidString": "0688D558-ECE0-4A4E-980B-2D1BA76C5721"
 		}
 	],
-"creatorBuild": "26148",
+"creatorBuild": "26261",
 "files": {
 	"\/contact.html": {
 		"cB": 0,
@@ -25,6 +25,16 @@
 		"oAP": "\/css\/stylesheet-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/img\/ableton.jpg": {
+		"ft": 16384,
+		"iS": 12880,
+		"oA": 0,
+		"oAP": "\/img\/ableton.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/album.png": {
 		"ft": 32768,
@@ -908,6 +918,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,

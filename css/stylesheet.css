@@ -44,7 +44,12 @@ input, select {
 html {
   font-size: 16px; }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Open Sans', sans-serif;
   color: #1a1a1a;
   letter-spacing: 0;
@@ -78,7 +83,8 @@ h3 {
   position: relative;
   line-height: 1.3em; }
 
-.section-title, .text-center {
+.section-title,
+.text-center {
   text-align: center; }
 
 .section-title:after {
@@ -186,7 +192,6 @@ p {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   position: relative;
-  /* width: 13em;  - apply for fixed size */
   padding: 8px 15px 8px 46px;
   border: none;
   text-align: left;
@@ -222,7 +227,6 @@ p {
   background-color: #4C69BA;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#4C69BA), to(#3B55A0));
   background-image: linear-gradient(#4C69BA, #3B55A0);
-  /*font-family: "Helvetica neue", Helvetica Neue, Helvetica, Arial, sans-serif;*/
   text-shadow: 0 -1px 0 #354C8C;
   cursor: pointer; }
 
